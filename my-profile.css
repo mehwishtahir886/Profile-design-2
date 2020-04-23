@@ -1,0 +1,376 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.container{
+    height:100vh;
+    background:linear-gradient(to top left,#BEF3E8, white);
+}
+.nav{
+    width:15%;
+    height:100vh;
+    background:linear-gradient(to top right,#BEF3E8, white);
+}
+.nav ul{
+    height:85vh;
+    width:100%;
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav ul li{
+    cursor:pointer;
+    color:#0E8A70;
+    font-size: 1.6rem;
+    height:5vh;
+    width:18vh;
+    background:white;
+    text-transform:capitalize;
+    box-shadow:-4px 4px 6px 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin-left:15%;
+}
+.icons i{
+    color:white;
+    font-size:1.6rem;
+    background:#0E8A70;
+    padding:10px;
+    border-radius:50%;
+}
+.icons::before{
+    position:absolute;
+    content:"mehwishtahir886@gmail.com";
+    text-transform:capitalize;
+    font-size:1.6rem;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.icons:hover::before{
+    top:92vh;
+    opacity:1;
+}
+.nav ul li:nth-child(1)::before{
+    position:absolute;
+    content:"mehwish tahir";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(1):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+}
+.nav ul li:nth-child(2)::before{
+    position:absolute;
+    content:"call#03113639966";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(2):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+
+}
+.nav ul li:nth-child(3)::before{
+    position:absolute;
+    content:"lahore,pakistan";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(3):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+
+}
+.nav ul li:nth-child(4)::before{
+    position:absolute;
+    content:"M.A(pol science)PU";
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(4):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+
+}
+.nav ul li:nth-child(5)::before{
+    position:absolute;
+    content:"software associate";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(5):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+
+}
+.nav ul li:nth-child(6)::before{
+    position:absolute;
+    content:"html, css, j.s";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(6):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+}
+.nav ul li:nth-child(7)::before{
+    position:absolute;
+    content:"github repositries";
+    text-transform:capitalize;
+    padding:5px;
+    color:#0E8A70;
+    opacity:0;
+    background:white;
+}
+.nav ul li:nth-child(7):hover::before{
+    left:15%;
+    opacity:1;
+    box-shadow:3px -3px 6px 1px;
+}
+.nav ul li:nth-child(7) a{
+    text-decoration: none;
+    color:#0E8A70;
+}
+.pg1{
+    position:absolute;
+    width:23%;
+    height:40vh;
+    padding:20px;
+    left:30%;
+    top:5vh;
+    background:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pg1 h1{
+    color:#0E8A70;
+    font-size:4rem;
+    text-transform:capitalize;
+}
+.pg1 h2{
+    color:rgb(47, 172, 147);
+    font-size:2rem;
+    text-transform:capitalize;
+}
+.pg1 p{
+    color:rgb(39, 192, 159);
+    font-size:1.6rem;
+}
+.pg1 button{
+    height:5vh;
+    width:15vh;
+    background:#0E8A70;
+    color:white;
+    text-decoration: none;
+}
+.pg1 button:hover{
+    color:#0E8A70;
+    background:white;
+    box-shadow:2px 2px 4px 2px #0E8A70;
+}
+.pg2{
+    position:absolute;
+    width:35%;
+    height:45vh;
+    left:60%;
+    top:5vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card{
+    position:absolute;
+    text-align: center;
+    height:45vh;
+    width:40%;
+    background:white;
+    box-shadow:0px 0px 5px 4px #0E8A70;
+}
+.card h1{
+    line-height: 4rem;
+   color: rgb(42, 172, 144);
+}
+.card ul li{
+    color:rgb(27, 151, 124);
+    font-size:1.4rem;
+    line-height: 2rem;
+}
+.card1{
+    transform:rotate(-10deg);
+}
+.card1:hover{
+    z-index:1;
+    left:-10%;
+    transform:rotate(-15deg);
+}
+.card2{
+    left:20%;
+}
+.card2:hover{
+    z-index:1;
+    transform:scale(1.1);
+}
+.card3{
+    left:40%;
+    transform:rotate(10deg);
+}
+.card3:hover{
+    z-index:1;
+    left:50%;
+    transform:rotate(15deg);
+}
+.pg3{
+    position:absolute;
+    width:60%;
+    height:35vh;
+    left:30%;
+    top:55vh;
+    display:flex;
+    justify-content: space-between;
+}
+.b-main{
+    width:30%;
+    height:35vh;
+
+}
+.pic{
+ width:100%;
+ height:30vh;
+}
+.pic img{
+    width:100%;
+    height:90%; 
+}
+.bar{
+    width:100%;
+    height:4.5vh;
+    border:2px solid #0E8A70;
+    background:white;
+    color:#0E8A70;
+    font-size: 1.6rem;
+}
+.btn{
+    display: none;
+}
+.label {
+    position: absolute;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    bottom:0vh;
+    left:24.5%;
+    height:5vh;
+    width:7vh;
+    background:#0E8A70;
+    cursor: pointer;
+}
+.label2{
+    position: absolute;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    bottom:0vh;
+    left:60%;
+    height:5vh;
+    width:7vh;
+    background:#0E8A70;
+    cursor: pointer;
+}
+.label3{
+    position: absolute;
+    left:95%;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    bottom:0vh;
+    height:5vh;
+    width:7vh;
+    background:#0E8A70;
+    cursor: pointer;
+}
+.detail{
+    position:absolute;
+    top:0;
+    width:30%;
+    height:27vh;
+    text-align:center;
+    background:linear-gradient(to bottom right,#BEF3E8, white);
+}
+.detail h1{
+    color:rgb(32, 177, 148);
+}
+.detail h2{
+    line-height: 3rem;
+    color:rgb(17, 110, 90);
+
+}
+.detail p{
+    font-size:1.3rem;
+    color:#0E8A70;
+}
+.detail a{
+    line-height: 3rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color:rgb(17, 110, 90);
+    padding:0px 10px;
+
+    box-shadow:2px 2px 4px 2px #0E8A70;
+}
+.btn:not(:checked) + .label + .detail{
+    opacity:0;
+}
+.btn:checked + .label + .detail{
+    animation:detail 2s 1;
+}
+.btn:not(:checked) + .label2 + .detail{
+    opacity:0;
+}
+.btn:checked + .label2 + .detail{
+    animation:detail 2s 1;
+}
+.btn:not(:checked) + .label3 + .detail{
+    opacity:0;
+}
+.btn:checked + .label3 + .detail{
+    animation:detail 2s 1;
+}
+@keyframes detail{
+    0%{
+        height:0vh;}
+    100%{
+         height:27vh;}
+    }
